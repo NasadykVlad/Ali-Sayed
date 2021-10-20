@@ -1,3 +1,56 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.main {
+    width: 100%;
+    .top {
+        display: flex;
+        &-left_container {
+            width: 70%;
+            background-image: url('../img/background_head.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-right_container {
+            width: 30%;
+            background-color: #f3f3f3;
+            padding: 3% 1% 6% 3%;
+            & img {
+                opacity: .6;
+                margin-bottom: 12%;
+                &:hover {
+                    transition: .5s;
+                    opacity: 1;
+                    transform: scale(1.2);
+                }
+            }
+            & h2 {
+                font-size: 40px;
+                font-weight: 300;
+                letter-spacing: 0.03em;
+                color: #262f32;
+                & span {
+                    display: inline-block;
+                    width: 100%;
+                }
+                .head-text {
+                    font-weight: 700;
+                }
+                .foot-text {
+                    font-weight: 400;
+                }
+                margin-bottom: 12%;
+            }
+            & p {
+                width: 83%;
+                font-size: 18px;
+                color: #262f32;
+            }
+            .top-right_container--top_text {
+                margin-bottom: 8%;
+            }
+        }
+    }
+}

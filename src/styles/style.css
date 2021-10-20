@@ -1,4 +1,72 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+
+.main {
+  width: 100%;
+}
+
+.main .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .top-left_container {
+  width: 70%;
+  background-image: url("../img/background_head.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .top-right_container {
+  width: 30%;
+  background-color: #f3f3f3;
+  padding: 3% 1% 6% 3%;
+}
+
+.main .top-right_container img {
+  opacity: .6;
+  margin-bottom: 12%;
+}
+
+.main .top-right_container img:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main .top-right_container h2 {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #262f32;
+  margin-bottom: 12%;
+}
+
+.main .top-right_container h2 span {
+  display: inline-block;
+  width: 100%;
+}
+
+.main .top-right_container h2 .head-text {
+  font-weight: 700;
+}
+
+.main .top-right_container h2 .foot-text {
+  font-weight: 400;
+}
+
+.main .top-right_container p {
+  width: 83%;
+  font-size: 18px;
+  color: #262f32;
+}
+
+.main .top-right_container .top-right_container--top_text {
+  margin-bottom: 8%;
+}
 /*# sourceMappingURL=style.css.map */
