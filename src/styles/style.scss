@@ -46,10 +46,135 @@
             & p {
                 width: 83%;
                 font-size: 18px;
+                line-height: 1.4;
                 color: #262f32;
             }
             .top-right_container--top_text {
                 margin-bottom: 8%;
+            }
+        }
+    }
+    .center {
+        width: 100%;
+        display: flex;
+        &-left {
+            width: 45%;
+            background-image: url('../img/main_first_background.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 3%;
+            & h2 {
+                font-size: 45px;
+                font-weight: 300;
+                color: #ffffff;
+                margin-bottom: 5%;
+                & span {
+                    font-weight: 900;
+                }
+            }
+            & p {
+                width: 85%;
+                opacity: 0.87;
+                font-size: 15.6px;
+                font-weight: 400;
+                line-height: 2;
+                color: #ffffff;
+                margin-bottom: 10%;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &-right {
+            width: 55%;
+            &-top_block {
+                width: 100%;
+                background-image: url('../img/main_second_background.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 5.34% 5% 10% 5%;
+                & h2 {
+                    font-size: 45px;
+                    font-weight: 300;
+                    color: #262f32;
+                    margin-bottom: 3.8%;
+                    & span {
+                        font-weight: 900;
+                    }
+                }
+                & p {
+                    width: 67%;
+                    opacity: 0.87;
+                    font-size: 15.6px;
+                    line-height: 2;
+                    font-weight: 400;
+                    color: #262f32;
+                    margin-bottom: 5%;
+                }
+                & a {
+                    width: 212px;
+                    height: 52px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #262f32;
+                    border-radius: 12px;
+                    font-size: 16.6px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #262f32;
+                    &:hover {
+                        transition: .5s;
+                        transform: scale(1.1);
+                        background-color: #F7E9C6;
+                    }
+                }
+            }
+            &-foot-block {
+                width: 100%;
+                background-image: url('../img/main_third_background.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 5.34% 5% 10% 5%;
+                & h2 {
+                    font-size: 45px;
+                    font-weight: 300;
+                    color: #ffffff;
+                    margin-bottom: 3.8%;
+                    & span {
+                        font-weight: 900;
+                    }
+                }
+                & p {
+                    width: 67%;
+                    opacity: 0.87;
+                    font-size: 15.6px;
+                    line-height: 2;
+                    font-weight: 400;
+                    color: #ffffff;
+                    margin-bottom: 5%;
+                }
+                & a {
+                    width: 212px;
+                    height: 52px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #ffffff;
+                    border-radius: 12px;
+                    font-size: 16.6px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #ffffff;
+                    &:hover {
+                        transition: .5s;
+                        transform: scale(1.1);
+                        background-color: #29323d;
+                    }
+                }
             }
         }
     }
