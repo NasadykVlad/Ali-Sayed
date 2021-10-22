@@ -39,11 +39,21 @@
 <body>
     <main class="main">
         <section class="top">
-            <div class="top-left_container">
-
-            </div>
+            <div class="top-left_container"></div>
             <div class="top-right_container">
-                <img class="top-right_container--burger_icon" src="./src/img/burger-menu.svg" alt="Burdger-Menu">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" onclick="menuBtn()" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">Home</a></li>
+                        <li><a class="menu__item" href="#">Projects</a></li>
+                        <li><a class="menu__item" href="#">Teams</a></li>
+                        <li><a class="menu__item" href="#">Blog</a></li>
+                        <li><a class="menu__item" href="#">Contacts</a></li>
+                    </ul>
+                </div>
                 <h2>Ali Sayed’s
                     <span class="head-text">Web Designing</span>
                     <span class="foot-text">Project</span>
